@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #007BFF;
+    padding: 15px;
+    color: white;
+}
+
+.navbar h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    /* Mengatur opsi menjadi horizontal */
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+    /* Padding untuk konten */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30px;
+    display: flex;
+    margin: 15px;
+    /* Hijau untuk tombol Edit */
+}
+
+.btn-delete {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px;
+    /* Merah untuk tombol Hapus */
+}
+
+
+/* Hover efek untuk navbar */
+
+
+/* Hover efek untuk tabel */
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+    /* Warna latar belakang saat hover pada baris tabel */
+}
+
+
+/* Hover efek untuk tombol */
+
+.btn-edit:hover {
+    background-color: darkgreen;
+    /* Lebih gelap saat hover untuk tombol Edit */
+}
+
+.btn-delete:hover {
+    background-color: darkred;
+    /* Lebih gelap saat hover untuk tombol Hapus */
+}
+
+.btn-tambah {
+    background-color: rgb(5, 100, 150);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    display: flex;
+    margin: 15px;
+    /* Hijau untuk tombol Edit */
+}
+
+.btn-tambah:hover {
+    background-color: rgb(6, 46, 68);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    display: flex;
+    margin: 15px;
+    /* Hijau untuk tombol Edit */
+}
